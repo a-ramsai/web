@@ -21,6 +21,8 @@ import {
   Flag,
   MessageSquareText,
   GitBranch,
+  ShieldAlert,
+  PieChart,
 } from "lucide-react";
 import { useState, useRef, useEffect } from "react";
 
@@ -31,8 +33,10 @@ const sidebarSections = [
       { icon: LayoutDashboard, label: "Command Center", path: "" },
       { icon: CalendarDays, label: "Calendar", path: "/calendar" },
       { icon: AlertCircle, label: "Issues", path: "/issues", badge: "14" },
+      { icon: ShieldAlert, label: "Risks & Delays", path: "/risks" },
       { icon: BarChart3, label: "Insights", path: "/insights" },
       { icon: GitBranch, label: "Repo Intelligence", path: "/repo" },
+      { icon: PieChart, label: "Reports", path: "/reports" },
     ],
   },
   {
